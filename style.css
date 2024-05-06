@@ -1,0 +1,59 @@
+#ground{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    border-radius: 10%;
+    background:linear-gradient(rgb(32, 162, 32),rgb(31, 161, 31));
+    transform: rotateX(50deg);
+}
+body{
+    overflow: hidden;
+    background-color: #a9a9a9;
+}
+#pitch{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+    height: 400px;
+    width: 200px;
+    background: linear-gradient(rgb(255, 187, 62),rgb(255, 170, 11));
+    perspective: 100px;
+}
+#container{
+    background: #a9a9a9;
+    perspective: 100px;
+}
+.wicket{
+    margin-left: 17px;
+    display: inline-block;
+    transform:rotateX(-22deg) translatey(-180px) translatez(-100px);
+}
+
+.bottomwicket{
+    margin-left: 17px;
+    display: inline-block;
+    transform:rotateX(156deg) translatez(70px) translatey(-300px);
+}
+.left{
+    margin-left: 67px;
+}
+
+.batsmanImage{
+    height: 100px;
+    margin-left: 55px;
+    transform: rotateX(139deg) translateZ(-10px);
+}
+
+.bowlerImage{
+    z-index: 1;
+    height: 250px;
+    scale: 150%;
+    margin-left: 100px; 
+    transform: rotateX(-50deg) translateZ(-20px) translatey(-50px);
+}
+
+#ball{
+    z-index: 1000;
+}
